@@ -1,0 +1,110 @@
+2025-02-09 10:54:02,168 - INFO - Loading data from ../assets/data/creditcard.csv
+2025-02-09 10:54:02,168 - INFO - Loading data from ../assets/data/creditcard.csv
+2025-02-09 10:54:05,144 - INFO - Data loaded successfully
+2025-02-09 10:54:05,144 - INFO - Data loaded successfully
+2025-02-09 10:54:05,145 - INFO - Loading data from ../assets/data/IpAddress_to_Country.csv
+2025-02-09 10:54:05,145 - INFO - Loading data from ../assets/data/IpAddress_to_Country.csv
+2025-02-09 10:54:05,212 - INFO - Data loaded successfully
+2025-02-09 10:54:05,212 - INFO - Data loaded successfully
+2025-02-09 10:54:05,213 - INFO - Loading data from ..a/assets/data/Fraud_Data.csv
+2025-02-09 10:54:05,213 - INFO - Loading data from ..a/assets/data/Fraud_Data.csv
+2025-02-09 10:54:14,027 - INFO - Loading data from ../assets/data/creditcard.csv
+2025-02-09 10:54:14,027 - INFO - Loading data from ../assets/data/creditcard.csv
+2025-02-09 10:54:16,908 - INFO - Data loaded successfully
+2025-02-09 10:54:16,908 - INFO - Data loaded successfully
+2025-02-09 10:54:16,918 - INFO - Loading data from ../assets/data/IpAddress_to_Country.csv
+2025-02-09 10:54:16,918 - INFO - Loading data from ../assets/data/IpAddress_to_Country.csv
+2025-02-09 10:54:16,969 - INFO - Data loaded successfully
+2025-02-09 10:54:16,969 - INFO - Data loaded successfully
+2025-02-09 10:54:16,970 - INFO - Loading data from ../assets/data/Fraud_Data.csv
+2025-02-09 10:54:16,970 - INFO - Loading data from ../assets/data/Fraud_Data.csv
+2025-02-09 10:54:17,498 - INFO - Data loaded successfully
+2025-02-09 10:54:17,498 - INFO - Data loaded successfully
+2025-02-09 10:54:46,865 - INFO - Generating column summary
+2025-02-09 10:54:46,865 - INFO - Generating column summary
+2025-02-09 10:54:49,820 - INFO - Column summary generated successfully
+2025-02-09 10:54:49,820 - INFO - Column summary generated successfully
+2025-02-09 10:55:13,144 - INFO - Generating missing values table
+2025-02-09 10:55:13,144 - INFO - Generating missing values table
+2025-02-09 10:55:13,296 - INFO - DataFrame has 11 columns.
+2025-02-09 10:55:13,296 - INFO - DataFrame has 11 columns.
+2025-02-09 10:55:13,296 - INFO - 0 columns have missing values.
+2025-02-09 10:55:13,296 - INFO - 0 columns have missing values.
+2025-02-09 10:55:21,351 - INFO - Generating missing values table
+2025-02-09 10:55:21,351 - INFO - Generating missing values table
+2025-02-09 10:55:21,389 - INFO - DataFrame has 3 columns.
+2025-02-09 10:55:21,389 - INFO - DataFrame has 3 columns.
+2025-02-09 10:55:21,389 - INFO - 0 columns have missing values.
+2025-02-09 10:55:21,389 - INFO - 0 columns have missing values.
+2025-02-09 10:55:29,454 - INFO - Generating missing values table
+2025-02-09 10:55:29,454 - INFO - Generating missing values table
+2025-02-09 10:55:29,503 - INFO - DataFrame has 31 columns.
+2025-02-09 10:55:29,503 - INFO - DataFrame has 31 columns.
+2025-02-09 10:55:29,503 - INFO - 0 columns have missing values.
+2025-02-09 10:55:29,503 - INFO - 0 columns have missing values.
+2025-02-09 10:58:51,945 - INFO - Successfully plotted histogram for purchase_value
+2025-02-09 10:58:51,945 - INFO - Successfully plotted histogram for purchase_value
+2025-02-09 10:58:52,693 - INFO - Successfully plotted count plot for source
+2025-02-09 10:58:52,693 - INFO - Successfully plotted count plot for source
+2025-02-09 10:58:53,274 - INFO - Successfully plotted count plot for browser
+2025-02-09 10:58:53,274 - INFO - Successfully plotted count plot for browser
+2025-02-09 10:58:54,306 - INFO - Successfully plotted histogram for class
+2025-02-09 10:58:54,306 - INFO - Successfully plotted histogram for class
+2025-02-09 10:58:55,852 - INFO - Successfully plotted histogram for age
+2025-02-09 10:58:55,852 - INFO - Successfully plotted histogram for age
+2025-02-09 10:58:56,520 - INFO - Successfully plotted count plot for sex
+2025-02-09 10:58:56,520 - INFO - Successfully plotted count plot for sex
+2025-02-09 10:59:34,216 - INFO - Successfully plotted histogram for Amount
+2025-02-09 10:59:34,216 - INFO - Successfully plotted histogram for Amount
+2025-02-09 10:59:42,238 - INFO - Successfully plotted histogram for Class
+2025-02-09 10:59:42,238 - INFO - Successfully plotted histogram for Class
+2025-02-09 11:00:06,231 - INFO - Successfully plotted count plot for country
+2025-02-09 11:00:06,231 - INFO - Successfully plotted count plot for country
+2025-02-09 11:00:42,937 - INFO - Successfully plotted scatter plot for Amount vs Class
+2025-02-09 11:00:42,937 - INFO - Successfully plotted scatter plot for Amount vs Class
+2025-02-09 11:00:50,171 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-02-09 11:00:50,171 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-02-09 11:00:50,327 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-02-09 11:00:50,327 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-02-09 11:00:50,440 - INFO - Successfully plotted count plot for class vs sex
+2025-02-09 11:00:50,440 - INFO - Successfully plotted count plot for class vs sex
+2025-02-09 11:00:56,261 - INFO - Successfully plotted scatter plot for class vs age
+2025-02-09 11:00:56,261 - INFO - Successfully plotted scatter plot for class vs age
+2025-02-09 11:01:02,165 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-02-09 11:01:02,165 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-02-09 11:01:02,337 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-02-09 11:01:02,337 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-02-09 11:01:02,453 - INFO - Successfully plotted count plot for class vs source
+2025-02-09 11:01:02,453 - INFO - Successfully plotted count plot for class vs source
+2025-02-09 11:01:09,249 - INFO - Successfully plotted scatter plot for class vs purchase_value
+2025-02-09 11:01:09,249 - INFO - Successfully plotted scatter plot for class vs purchase_value
+2025-02-09 11:01:23,569 - INFO - Starting merge of datasets for geolocation analysis
+2025-02-09 11:01:23,569 - INFO - Starting merge of datasets for geolocation analysis
+2025-02-09 11:01:23,570 - INFO - Converting IP addresses in fraud data to integer format
+2025-02-09 11:01:23,570 - INFO - Converting IP addresses in fraud data to integer format
+2025-02-09 11:01:24,660 - INFO - Converting IP address bounds in country data to integer format
+2025-02-09 11:01:24,660 - INFO - Converting IP address bounds in country data to integer format
+2025-02-09 11:01:26,507 - INFO - Dropping rows with invalid IP addresses
+2025-02-09 11:01:26,507 - INFO - Dropping rows with invalid IP addresses
+2025-02-09 11:01:26,632 - INFO - Merging datasets based on IP address ranges
+2025-02-09 11:01:26,632 - INFO - Merging datasets based on IP address ranges
+2025-02-09 11:01:26,756 - INFO - Filtering merged data to ensure IP address is within the specified range
+2025-02-09 11:01:26,756 - INFO - Filtering merged data to ensure IP address is within the specified range
+2025-02-09 11:01:26,796 - INFO - Merge completed successfully
+2025-02-09 11:01:26,796 - INFO - Merge completed successfully
+2025-02-09 11:02:29,530 - INFO - Encoding categorical features using one-hot encoding
+2025-02-09 11:02:29,530 - INFO - Encoding categorical features using one-hot encoding
+2025-02-09 11:02:29,658 - INFO - Categorical features encoded successfully
+2025-02-09 11:02:29,658 - INFO - Categorical features encoded successfully
+2025-02-09 11:02:29,664 - INFO - Encoding categorical features using one-hot encoding
+2025-02-09 11:02:29,664 - INFO - Encoding categorical features using one-hot encoding
+2025-02-09 11:02:30,181 - INFO - Categorical features encoded successfully
+2025-02-09 11:02:30,181 - INFO - Categorical features encoded successfully
+2025-02-09 11:02:35,834 - INFO - Normalizing numerical features using StandardScaler
+2025-02-09 11:02:35,834 - INFO - Normalizing numerical features using StandardScaler
+2025-02-09 11:02:35,889 - INFO - Numerical features normalized successfully
+2025-02-09 11:02:35,889 - INFO - Numerical features normalized successfully
+2025-02-09 11:02:35,889 - INFO - Normalizing numerical features using StandardScaler
+2025-02-09 11:02:35,889 - INFO - Normalizing numerical features using StandardScaler
+2025-02-09 11:02:36,508 - INFO - Numerical features normalized successfully
+2025-02-09 11:02:36,508 - INFO - Numerical features normalized successfully
