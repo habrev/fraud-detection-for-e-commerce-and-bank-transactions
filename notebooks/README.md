@@ -26,3 +26,60 @@
 
 ### 7. Encode Categorical Features
 - Convert categorical variables into numerical representations using techniques like One-Hot Encoding or Label Encoding.
+
+# Task-2: Model Building and Training
+
+## Overview
+This project focuses on building and training machine learning models for fraud detection using two datasets:
+- **Credit Card Dataset** (`Class` as the target variable)
+- **Fraud Data Dataset** (`class` as the target variable)
+
+The process includes data preparation, model training, evaluation, and MLOps steps for tracking and versioning.
+
+---
+
+## Data Preparation
+1. **Feature and Target Separation:**
+   - Extract feature variables (`X`) and target variable (`y`)
+   - `Class` column for the credit card dataset
+   - `class` column for the fraud data dataset
+
+2. **Train-Test Split:**
+   - Split the dataset into training (80%) and testing (20%) sets using `train_test_split` from `sklearn.model_selection`.
+
+---
+
+## Model Selection
+Several machine learning models are used for performance comparison:
+- **Logistic Regression**
+- **Decision Tree**
+- **Random Forest**
+- **Gradient Boosting**
+- **Multi-Layer Perceptron (MLP)**
+- **Convolutional Neural Network (CNN)**
+- **Recurrent Neural Network (RNN)**
+- **Long Short-Term Memory (LSTM)**
+
+---
+
+## Model Training and Evaluation
+1. **Train each model** on the training set.
+2. **Evaluate model performance** using metrics such as:
+   - Accuracy
+   - Precision
+   - Recall
+   - F1-score
+   - AUC-ROC
+3. **Compare models** to select the best-performing one.
+
+---
+
+## MLOps Steps
+### Experiment Tracking and Model Versioning
+- **MLflow** is used to track:
+  - Model parameters
+  - Performance metrics
+  - Experiment versions
+- Run `mlflow.start_run()` to log experiments.
+- Save models using `mlflow.sklearn.log_model()`.
+
