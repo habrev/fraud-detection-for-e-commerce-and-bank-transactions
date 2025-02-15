@@ -83,3 +83,65 @@ Several machine learning models are used for performance comparison:
 - Run `mlflow.start_run()` to log experiments.
 - Save models using `mlflow.sklearn.log_model()`.
 
+# Task 3 - Model Explainability
+
+Model explainability is crucial for understanding, trust, and debugging in machine learning models. This project uses **SHAP** (Shapley Additive exPlanations) and **LIME** (Local Interpretable Model-agnostic Explanations) to interpret the fraud detection models.
+
+### Using SHAP for Explainability
+SHAP values provide a unified measure of feature importance, explaining the contribution of each feature to the prediction.
+
+
+#### SHAP Plots
+- **Summary Plot**: Provides an overview of the most important features.
+- **Force Plot**: Visualizes the contribution of features for a single prediction.
+- **Dependence Plot**: Shows the relationship between a feature and the model output.
+
+### Using LIME for Explainability
+LIME explains individual predictions by approximating the model locally with an interpretable model.
+
+#### LIME Plots
+- **Feature Importance Plot**: Shows the most influential features for a specific prediction.
+
+## Task 4 - Model Deployment and API Development
+
+### Setting Up the Flask API
+1. **Create a new directory** for the project.
+2. **Create a Python script** `serve_model.py` to serve the model using Flask.
+3. **Create a `requirements.txt` file** to list dependencies.
+
+### API Development
+- Define API endpoints to serve fraud predictions.
+- Test the API for accuracy and reliability.
+
+### Dockerizing the Flask Application
+Create a `Dockerfile` in the project directory:
+
+### Integrate Logging
+Use Flask-Logging to track:
+- Incoming requests
+- Errors
+- Fraud predictions for continuous monitoring
+
+## Task 5 - Build a Dashboard with Flask and Dash
+
+### Overview
+Create an interactive dashboard using **Dash** for visualizing fraud insights from the data. The **Flask backend** will serve data from the datasets, while **Dash** will be used to visualize insights.
+
+### Flask API for Data Serving
+- Create an endpoint that reads fraud data from a CSV file.
+- Serve summary statistics and fraud trends through API endpoints.
+
+### Dashboard Insights
+The dashboard should display:
+1. **Summary Statistics**:
+   - Total transactions
+   - Fraud cases
+   - Fraud percentage
+2. **Line Chart**:
+   - Number of detected fraud cases over time
+3. **Geographical Analysis**:
+   - Locations where fraud is occurring
+4. **Device and Browser Analysis**:
+   - Bar chart comparing the number of fraud cases across different devices and browsers
+
+This project ensures model transparency, reliable deployment, and insightful visualizations to detect and prevent fraudulent activities effectively.
